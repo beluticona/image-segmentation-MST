@@ -11,7 +11,7 @@ Trabajo Practico II
 //Global vertices, edges, ancho y altura
 int w, h, n, m;
 vector<int> vertices;
-int threshold_constant = 5; //parámetro para cota de la diferencia interna de los segmentos @TOCLEAN: fijarse si pasar a float o no
+int threshold_constant = 5; //parámetro para cota de la diferencia interna de los segmentos
 
 struct Edge {
     int src, dst, weight;
